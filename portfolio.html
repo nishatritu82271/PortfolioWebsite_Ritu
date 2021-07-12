@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	
+	<style>
+	*{
+	margin: 0; padding: 0;
+}
+
+.navbar{
+	width: 100%;
+	height: 15vh;
+	margin: auto; display: flex;
+	align-items: center;
+}
+
+}
+nav{
+	flex: 1; padding-left: 300px;
+}
+nav ul li{
+	display: inline-block; list-style: none; margin: 0px 50px; color: #333;
+}
+nav ul li a{
+	text-decoration: none; color: #333; border: 1px solid transparent;
+	transition: 1s ease;
+}
+ul li a:hover{
+	background-color: blue; color: lightgray;
+}
+ul li.active a{
+	color: white; background-color: lightskyblue;
+}
+.cn{
+	height: 50vh; width: 100%;
+	 background-image: url(images/work.png);
+	 padding-left: 15%; padding-right: 5%; background-size: 100%;
+	 box-sizing: border-box; position: relative;
+}
+h2{
+	text-align: center; color: skyblue; margin-top: 35px;
+}
+.gallery{
+	margin-left: 15px;
+}
+.gallery img{
+	width: 230px; padding: 10px; 
+	transition: 1s;
+}
+.gallery img:hover{
+	filter: brightness(1.0);
+	transform: scale(1.1);
+}
+
+
+	
+	</style>
+
+</head>
+<body>
+	<div class="cn">
+	<div class="navbar">
+			
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+                     <li><a href="skill.html">Skills</a></li>
+       				<li class="active"><a href="#">Portfolio</a></li>
+       				<li><a href="https://drive.google.com/drive/folders/1_Sj8mBbiRobrdn5wblloAzHNVpFbXTuC?usp=sharing"> Download CV</a></li>
+
+				</ul>
+			</nav>
+			
+		</div>
+	</div>
+		
+     
+      <div class="gallery">
+
+      	  <a href="images/fw-small-copy.png"><img src="images/fw-small.png" width="30%"></a>
+          <a href="images/op-small-copy.png"><img src="images/op-small.png" width="30%"></a> 
+           <a href="images/gs-small-copy.png"><img src="images/gs-small.png" width="30%"></a>
+           <a href="images/fa1-small-copy.png"><img src="images/fa1-small.png" width="30%"></a>
+           <a href="images/fa2-small-copy.png"><img src="images/fa2-small.png" width="30%"></a>
+           <a href="images/fa3-small-copy.png"><img src="images/fa3-small.png" width="30%"></a>
+           <a href="images/fa4-small-copy.png"><img src="images/fa4-small.png" width="30%"></a>
+           <a href="images/fa5-small-copy.png"><img src="images/fa5-small.png" width="30%"></a>
+           <a href="images/gf-small-copy.jpg"><img src="images/gf-small.jpg" width="30%"></a>
+           <a href="images/fm-small-copy.png"><img src="images/fm-small.png" width="30%"></a>
+        
+        </div>
+           
+
+</body>
+</html>
